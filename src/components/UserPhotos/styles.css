@@ -1,0 +1,27 @@
+.user-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.user-photos-card {
+  max-width: 640px;
+}
+
+.user-photos-image {
+  max-height: 480px;
+  object-fit: contain;
+  background: #f2f2f2;
+}
+
+.user-photos-divider {
+  margin: 12px 0;
+}
+
+.user-photos-comment {
+  margin-bottom: 12px;
+}
+
+.user-photos-comment-date {
+  margin-left: 8px;
+}
